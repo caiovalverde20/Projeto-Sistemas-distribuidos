@@ -4,7 +4,7 @@
 Este projeto implementa um sistema distribuído usando Flask, Kafka e Zookeeper para simular o tratamento e análise de eventos de usuários. O sistema demonstra o gerenciamento seguro de senhas, utilizando hash, a produção e consumo de eventos Kafka e análise de dados em tempo real.
 
 ## Motivação
-- Além do kafka ser projetado para lidar com grandes fluxos e baixa latencia, que seria o caso nescessario se fosse um verdadeiro sistema web, kafka e zookeeper foram as duas teclogias que fiz o guia. Também trabalho com programação web e procurei o que poderia fazer juntando eles, e cheguei nesse monitoramento do sistema, super importante atualmente, para manter a saude da aplicação, encontrar e erros e usuarios mal intencionados
+- Além do kafka ser projetado para lidar com grandes fluxos e baixa latencia, que seria o caso nescessario se fosse um verdadeiro sistema web, kafka e zookeeper foram as duas tecnologias que utilizei durante a cadeira para seguir os guias. Também trabalho com programação web e procurei o que poderia fazer juntando eles, e cheguei nesse monitoramento do sistema, super importante atualmente, para manter a saude da aplicação, encontrar e erros e usuarios mal intencionados
 
 ## Principais Funcionalidades
 - **Produtor de Eventos**: Uma aplicação Flask que aceita entradas de usuários, faz o hash de senhas e envia esses eventos para um tópico Kafka.
